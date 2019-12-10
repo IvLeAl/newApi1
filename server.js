@@ -3,22 +3,28 @@
  */
 
 
-
-
 //Подключаем библиотеку express
-const express        = require('express');
+const express = require('express');
 
-//Подключаем библиотеку bodyParser, которая будет парсить тело запроса и запиывать то что мы передаем
-const bodyParser     = require('body-parser');
+// Подключаем библиотеку bodyParser, которая будет парсить тело запроса и запиывать то что мы передаем
+const bodyParser = require('body-parser');
+
+//Подключаем базу данных
+const MongoClient  = require('mongodb').MongoClient;
+
+
+
 
 //Создаем переменную арр которая будет нашим веб сервером
 var app = express();
 
+// // var db;
+//
 app.use(bodyParser.json()); // что бы правильно парсить json
 app.use(bodyParser.urlencoded({extended: true})); // что бы правильно парсить данные формы
 
 
-
+// Массив переменных
 var artists = [
     {
         id: 1,
@@ -34,31 +40,38 @@ var artists = [
     }
 ];
 
-
-
-
-
-//Описываем route для нашего приложения. То что будет просходить
-//когда мы будем заходить на URL
-
+//
+//
+//
+//
+// //Описываем route для нашего приложения. То что будет просходить
+// //когда мы будем заходить на URL
+//
 app.get('/', function (req, res) {
     res.send('hello API');
 });
 
-//Описываем route который будет выводит наших исполнителей
-
-app.get('/artists', function (req, res) {
-    res.send(artists);
+//Настроить сервер что бы он был запущен на определенном порту
+app.listen(3012,function () {
+    console.log('API app started');
 });
 
-//Описываем route который будет возвращать отдельного исполнителя
+
+// //Описываем route который будет выводит наших исполнителей
+
+ app.get('/artists', function (req, res) {
+     res.send(artists);
+ });
+
+
+// //Описываем route который будет возвращать отдельного исполнителя
 
 app.get('/artists/:id', function (req, res) {
-    console.log(req.params);
-    var artist = artists.find(function (artist) {
-        return artist.id === Number(req.params.id);
-    });
-    res.send(artist);
+     console.log(req.params);
+     var artist = artists.find(function (artist) {
+         return artist.id === Number(req.params.id)
+     });
+     res.send(artist);
 });
 
 
@@ -67,29 +80,33 @@ app.post('/artists', function (req, res) {
         id: Date.now(),
         name: req.body.name
     };
-    artists.push(artist);
-    res.send(artist);
+     artists.push(artist);
+     res.send(artist);
 });
 
-//Реализуем обновление данных
-
-app.put('/artists/:id', function (req, res) {
+ //Реализуем обновление данных
+ app.put('/artists/:id', function (req, res) {
     var artist = artists.find(function (artist) {
-        return artist.id === Number(req.params.id)
+    return artist.id === Number(req.params.id)
     });
-    artist.name = req.body.name;
-    res.sendStatus(200);
-});
+   artist.name = req.body.name;
+   res.sendStatus(200);
+ });
 
-
-app.delete('/artists/:id', function (req, res){
+ app.delete('/artists/:id', function (req, res){
     artists = artists.filter(function (artist) {
-        return artist.id != Number(req.params.id);
+       return artist.id !== Number(req.params.id);
     });
-    res.sendStatus(200);
-});
-//Настроить сервер что бы он был запущен на определенном порту
-app.listen(3012,function () {
-    console.log('API app started');
-});
+   res.sendStatus(200);
+ });
+
+
+
+
+// //Настроить сервер что бы он был запущен на определенном порту
+// app.listen(3012,function () {
+//     console.log('API app started');
+// });
+//
+
 
