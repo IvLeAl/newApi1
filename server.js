@@ -4,22 +4,23 @@
 
 
 //Подключаем библиотеку express
-const express = require('express');
+var express = require('express');
 
 // Подключаем библиотеку bodyParser, которая будет парсить тело запроса и запиывать то что мы передаем
-const bodyParser = require('body-parser');
+var bodyParser = require('body-parser');
 
 //Подключаем базу данных
-const MongoClient  = require('mongodb').MongoClient;
+var MongoClient  = require('mongodb').MongoClient;
 
-
+var ObjectID = require('mongodb').ObjectID;
 
 
 //Создаем переменную арр которая будет нашим веб сервером
 var app = express();
-
 var db;
-//
+
+
+
 app.use(bodyParser.json()); // что бы правильно парсить json
 app.use(bodyParser.urlencoded({extended: true})); // что бы правильно парсить данные формы
 
@@ -40,26 +41,36 @@ var artists = [
     }
 ];
 
-//
-//
-//
-//
-// //Описываем route для нашего приложения. То что будет просходить
+
+// //Описываем  для нашего приложения. То что будет просходить
 // //когда мы будем заходить на URL
-//
+
 app.get('/', function (req, res) {
-    res.send('hello API');
+    db.collection('artists').find().toArray(function (err, docs) {
+        if (err) {
+            console.log(err);
+            return res.sendStatus(500);
+        }
+        res.send(docs);
+    })
+
 });
 
 
-// //Описываем route который будет выводит наших исполнителей
+// //Описываем  который будет выводит наших исполнителей
 
  app.get('/artists', function (req, res) {
-     res.send(artists);
+     db.collection('artists').function({id: ObjectID(req.params.id)}, function (err, docs) {
+         if (err) {
+             console.log(err);
+             return res.sendStatus(500);
+         }
+         res.send(docs);
+     })
  });
 
 
-// //Описываем route который будет возвращать отдельного исполнителя
+// //Описываем  который будет возвращать отдельного исполнителя
 
 app.get('/artists/:id', function (req, res) {
      console.log(req.params);
@@ -70,14 +81,19 @@ app.get('/artists/:id', function (req, res) {
 });
 
 
-app.post('/artists', function (req, res) {
+app.post('/artists', function (req, result) {
     var artist = {
-    id: Date.now(),
-        name: req.body.name
+      name: req.body.name
     };
-    artists.push(artist);
-    res.send(artist);
-}); 4444
+
+    db.collection('artists').insert(artist, function (err, result) {
+        if (err) {
+            console.log(err);
+           return res.sendStatus(500);
+        }
+        res.send(artist);
+    })
+});
 
  //Реализуем обновление данных
  app.put('/artists/:id', function (req, res) {
