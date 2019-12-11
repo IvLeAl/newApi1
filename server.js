@@ -18,7 +18,7 @@ const MongoClient  = require('mongodb').MongoClient;
 //Создаем переменную арр которая будет нашим веб сервером
 var app = express();
 
-// // var db;
+var db;
 //
 app.use(bodyParser.json()); // что бы правильно парсить json
 app.use(bodyParser.urlencoded({extended: true})); // что бы правильно парсить данные формы
@@ -51,11 +51,6 @@ app.get('/', function (req, res) {
     res.send('hello API');
 });
 
-//Настроить сервер что бы он был запущен на определенном порту
-app.listen(3012,function () {
-    console.log('API app started');
-});
-
 
 // //Описываем route который будет выводит наших исполнителей
 
@@ -77,12 +72,12 @@ app.get('/artists/:id', function (req, res) {
 
 app.post('/artists', function (req, res) {
     var artist = {
-        id: Date.now(),
+    id: Date.now(),
         name: req.body.name
     };
-     artists.push(artist);
-     res.send(artist);
-});
+    artists.push(artist);
+    res.send(artist);
+}); 4444
 
  //Реализуем обновление данных
  app.put('/artists/:id', function (req, res) {
@@ -108,5 +103,14 @@ app.post('/artists', function (req, res) {
 //     console.log('API app started');
 // });
 //
-
+//
+MongoClient.connect('mongodb://localhost:27017/myapi' , { useUnifiedTopology: true } , function (err, database) {
+    if(err) {
+        return console.log(err);
+    }
+    db = database;
+    app.listen(3012,function () {
+     console.log('API app started');
+ });
+});
 

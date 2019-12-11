@@ -1,178 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d667d4c-58a7-4649-860a-18e568cc3fd2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.bin/semver" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.bin/semver.cmd" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bson/browser_build/bson.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bson/browser_build/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/binary.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/bson.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/code.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/db_ref.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/decimal128.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/double.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/float_parser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/int_32.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/long.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/map.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/max_key.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/min_key.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/objectid.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/parser/calculate_size.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/parser/deserializer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/parser/serializer.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/parser/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/regexp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/symbol.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bson/lib/bson/timestamp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/LICENSE.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/admin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/aggregation_cursor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/apm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/async/.eslintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/async/async_iterator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/bulk/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/bulk/ordered.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/bulk/unordered.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/change_stream.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/collection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/command_cursor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/constants.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/auth/auth_provider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/auth/defaultAuthProviders.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/auth/gssapi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/auth/mongo_credentials.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/auth/mongocr.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/auth/plain.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/auth/scram.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/auth/sspi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/auth/x509.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/connection/apm.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/connection/command_result.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/connection/commands.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/connection/connect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/connection/connection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/connection/logger.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/connection/msg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/connection/pool.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/connection/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/cursor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/error.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/sdam/common.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/sdam/monitoring.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/sdam/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/sdam/server_description.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/sdam/server_selection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/sdam/srv_polling.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/sdam/topology.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/sdam/topology_description.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/sessions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/topologies/mongos.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/topologies/read_preference.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/topologies/replset.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/topologies/replset_state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/topologies/server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/topologies/shared.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/transactions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/uri_parser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/wireprotocol/command.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/wireprotocol/compression.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/wireprotocol/constants.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/wireprotocol/get_more.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/wireprotocol/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/wireprotocol/kill_cursors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/wireprotocol/query.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/wireprotocol/shared.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/core/wireprotocol/write_command.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/cursor.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/db.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/dynamic_loaders.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/error.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/gridfs/chunk.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/gridfs/grid_store.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/mongo_client.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/admin_ops.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/aggregate.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/bulk_write.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/close.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/collection_ops.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/collections.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/command_v2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/common_functions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/connect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/count.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/count_documents.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/create_index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/cursor_ops.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/db_ops.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/delete_many.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/delete_one.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/drop_index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/estimated_document_count.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/execute_db_admin_command.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/explain.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/find.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/find_and_modify.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/find_one.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/find_one_and_delete.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/find_one_and_update.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/geo_haystack_search.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/has_next.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/index_exists.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/index_information.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/indexes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/insert_many.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/is_capped.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/list_collections.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/list_databases.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/list_indexes.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/next.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/operation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/options_operation.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/profiling_level.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/re_index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/rename.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/replace_one.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/set_profiling_level.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/to_array.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/update_many.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/update_one.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/operations/validate_collection.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/read_concern.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/url_parser.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/utils.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/lib/write_concern.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongodb/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/require_optional/.npmignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/require_optional/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/require_optional/HISTORY.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/require_optional/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/require_optional/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/require_optional/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/require_optional/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/require_optional/test/nestedTest/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/require_optional/test/nestedTest/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/require_optional/test/require_optional_tests.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/saslprep/lib/code-points.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/saslprep/lib/memory-code-points.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/saslprep/lib/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/saslprep/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/saslprep/test/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/semver/bin/semver" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sparse-bitfield/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sparse-bitfield/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sparse-bitfield/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/sparse-bitfield/package.json" />
+    <list default="true" id="4d667d4c-58a7-4649-860a-18e568cc3fd2" name="Default" comment="До подключения Mongodb ntc">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/body-parser/package.json" afterPath="$PROJECT_DIR$/node_modules/body-parser/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -201,8 +32,38 @@
       <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-816">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="311">
+              <caret line="82" column="46" lean-forward="true" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package-lock.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-51">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exclude" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.git/info/exclude">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -219,10 +80,15 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="FORCE_PUSH_ALLOWED" value="false" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response21.txt" root0="SKIP_INSPECTION" />
+    <setting file="dummy://restClient/response33.json" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -232,6 +98,7 @@
         <option value="$PROJECT_DIR$/root/app/routes/index.js" />
         <option value="$PROJECT_DIR$/node_modules/server.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
@@ -247,8 +114,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1915" />
-    <option name="width" value="974" />
+    <option name="x" value="1913" />
+    <option name="width" value="1149" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -291,10 +158,66 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="add_unversioned_files" value="true" />
   </component>
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3012" />
+          <option name="urlPath" value="/artists" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="DELETE" />
+          <option name="urlBase" value="http://localhost:3012" />
+          <option name="urlPath" value="/artists" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parameters">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="" />
+                <option name="value" value="" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="DELETE" />
           <option name="urlBase" value="http://localhost:3012" />
@@ -644,12 +567,12 @@
       <workItem from="1575879968746" duration="19351000" />
       <workItem from="1575962052949" duration="153000" />
       <workItem from="1575962541297" duration="10209000" />
-      <workItem from="1576001193554" duration="7175000" />
+      <workItem from="1576001193554" duration="20413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36888000" />
+    <option name="totallyTimeSpent" value="50126000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -661,18 +584,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1915" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="1913" y="0" width="1149" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16849016" sideWeight="0.49411765" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31756756" sideWeight="0.50437635" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31756756" sideWeight="0.49562362" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14141414" sideWeight="0.49411765" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995495" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31756756" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24726477" sideWeight="0.5058824" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39977476" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -714,6 +639,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="До подключения Mongodb" />
+    <MESSAGE value="До подключения Mongodb ntc" />
+    <option name="LAST_COMMIT_MESSAGE" value="До подключения Mongodb ntc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -772,13 +702,6 @@
     <entry file="file://$PROJECT_DIR$/root/app/routes/note_routes.js" />
     <entry file="file://$PROJECT_DIR$/root/app/routes/index.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/server.js" />
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -787,10 +710,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.git/info/exclude">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-816">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="311">
+          <caret line="82" column="46" lean-forward="true" selection-start-line="82" selection-start-column="46" selection-end-line="82" selection-end-column="46" />
           <folding />
         </state>
       </provider>
