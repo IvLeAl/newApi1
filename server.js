@@ -41,33 +41,10 @@ app.get('/artists/:id', artistsController.findById);
 
 app.post('/artists', artistsController.create);
 
- //Реализуем обновление данных
- app.put('/artists/:id', function (req, res) {
-    db.get().collection('artists').updateOne(
-        {_id: ObjectID(req.params.id) },
-        {name: req.body.name },
-        function (err, result) {
-            if (err) {
-                console.log(err);
-                return res.sendStatus(500);
-            }
-            res.sendStatus(200);
-        }
-    )
- });
 
- app.delete('/artists/:id', function (req, res){
-     db.get().collection('artists').deleteOne(
-         {id: ObjectID(req.params.id) },
-         function (err, result) {
-             if (err) {
-                 console.log(err);
-                 return res.sendStatus(500);
-             }
-             res.sendStatus(200);
-         }
-     )
- });
+ app.put('/artists/:id', artistsController.update);
+
+ app.delete('/artists/:id', artistsController.delete );
 
 
 
